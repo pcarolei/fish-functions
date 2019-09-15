@@ -4,6 +4,8 @@ function volume
 		echo "current volume lvl: $CURRENT_VOLUME"
 	else if test "$argv[1]" = "mute"
 		osascript -e "set Volume 0"
+	else if test "$argv[1]" = "50"
+		osascript -e "set Volume 4"
 	else
 		echo "error: wrong argument"
 	end
