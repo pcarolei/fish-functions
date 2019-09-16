@@ -1,3 +1,3 @@
 function lessc
-	pygmentize $argv | less -R
+	pygmentize $argv | less -R -N
 end
